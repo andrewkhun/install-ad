@@ -20,3 +20,17 @@ The System Properties will open and an option to rename the computer will be ava
 
 <img src="https://i.imgur.com/9ZvnQ4e.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
+After restarting your VM will be successfully renamed.
+
+## Enhancing Performance
+
+The next task we can do is enhance our performance. Navigate to the settings menu once again and scroll down to the same area where we renamed our PC. Click on "Advanced System Settings" then click "Settings" under the Performance option. A window will pop up with options to adjust the Visual Effects of your machine. Select the option for "Adjust for Best Performance" and click OK on the windows to apply.
+
+<img src="https://i.imgur.com/1wDsaU4.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+This will give a slight performance boost to our PC and make things run a little bit faster. 
+
+Now we are ready to install Active Directory!
+
+## Installing Active Directory
+
