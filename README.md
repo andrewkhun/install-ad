@@ -1,4 +1,4 @@
-![Screenshot 2024-09-03 141305](https://github.com/user-attachments/assets/4ed51a5d-b5e4-4f57-b373-0e0b9c0b7062)# Installing Active Directory on Windows Server 2022
+![image](https://github.com/user-attachments/assets/5983dcc7-4677-4a41-9945-fb88fe1003b1)![Screenshot 2024-09-03 141305](https://github.com/user-attachments/assets/4ed51a5d-b5e4-4f57-b373-0e0b9c0b7062)# Installing Active Directory on Windows Server 2022
 
 We will continue building on our Active Directory lab by installing Active Directory onto our Windows Server 2022 VirtualBox VM! We will also do two other housekeeping tasks to make things run a bit smoother.
 
@@ -64,12 +64,46 @@ Once on the Confirmation page, click "Install" to begin the installation process
 
 <img src="https://i.imgur.com/qpvqG0i.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
+
+## Promoting the Server to a Domain Controller
+
 Once the installation process has completed, do NOT close the window just yet. Instead click on "Promote this server to a domain controller".
 
 <img src="https://i.imgur.com/N56dpRK.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
 Promoting a server to a domain controller allows it to manage and authenticate users, computers, and other resources within a network domain. It acts as the central authority for network security, ensuring that users have the right access to resources and enforcing security policies. In simple terms, it helps organize and control network resources efficiently and securely.
 
+Select "Add a new forest" and create a name for your "Root domain name", for this lab we will simply name it "mydomain.com". Hit Next when ready. 
+
+<img src="https://i.imgur.com/2x2I3d0.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+On "Domain Controller Options", create a password and make sure to remember it! Click Next when ready.
+
+<img src="https://i.imgur.com/hCg9zKl.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Leave "Create DNS delegation" unselected.
+
+<img src="https://i.imgur.com/VLyXeSL.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Click next for NetBIOS domain name as it should be auto-populated with our domain name. Continue to click Next, until the Install button is ready to be selected. Then click Install.
+
+<img src="https://i.imgur.com/0qnY9bl.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/senZpIJ.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/RuPcMIk.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/VhPWjFw.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once finished installing, the computer will restart.
+
+<img src="https://i.imgur.com/G97A2l6.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+
+Once restarted, log back in and head over to the Windows Server Manager once again. Click on "Tools" and select "Active Directory Users and Computers".
+
+<img src="https://i.imgur.com/RygVEkE.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/EZQTHeF.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
 
 
