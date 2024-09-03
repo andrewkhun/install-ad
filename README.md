@@ -4,6 +4,8 @@ We will continue building on our Active Directory lab by installing Active Direc
 
 If you have not, please follow the initial steps to install VirtualBox and setup your Windows Server 2022 Virtual Machine!  
 
+The goal is to set up a home Active Directory lab to practice IT skills and tools!
+
 [Installing VirtualBox and Windows Server 2022](https://github.com/andrewkhun/virtualbox)
 
 ## Renaming your Server
