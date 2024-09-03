@@ -1,4 +1,4 @@
-# Installing Active Directory on Windows Server 2022
+![Screenshot 2024-09-03 141305](https://github.com/user-attachments/assets/4ed51a5d-b5e4-4f57-b373-0e0b9c0b7062)# Installing Active Directory on Windows Server 2022
 
 We will continue building on our Active Directory lab by installing Active Directory onto our Windows Server 2022 VirtualBox VM! We will also do two other housekeeping tasks to make things run a bit smoother.
 
@@ -33,4 +33,45 @@ This will give a slight performance boost to our PC and make things run a little
 Now we are ready to install Active Directory!
 
 ## Installing Active Directory
+
+Open up Server Manager if it has not already been opened. On the top right select "Manage", then "Add Roles and Features" to get started.
+
+<img src="https://i.imgur.com/9YHGLL5.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/Ut6KaeV.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+
+We will be adding a "Role-based or feature-based installation" as our Installation Type. 
+
+<img src="https://i.imgur.com/1uTkqb9.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+For Server Selection, make sure our Server2022 is selected and click Next.
+
+<img src="https://i.imgur.com/aHcQViy.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+For Server Roles, we will be selecting "Active Directory Domain Services". Make sure to check off the correct box. A window will appear that list the features we will be adding, click on "Add Features", then Next to continue.
+
+<img src="https://i.imgur.com/nlJavSa.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/0MtYFTN.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+For Features and AD DS, click on Next to continue for both sections.
+
+<img src="https://i.imgur.com/k9kUAHz.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+<img src="https://i.imgur.com/B3QFOxL.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once on the Confirmation page, click "Install" to begin the installation process.
+
+<img src="https://i.imgur.com/qpvqG0i.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Once the installation process has completed, do NOT close the window just yet. Instead click on "Promote this server to a domain controller".
+
+<img src="https://i.imgur.com/N56dpRK.png" height="70%" width="70%" alt="VirtualBox downloads"/>
+
+Promoting a server to a domain controller allows it to manage and authenticate users, computers, and other resources within a network domain. It acts as the central authority for network security, ensuring that users have the right access to resources and enforcing security policies. In simple terms, it helps organize and control network resources efficiently and securely.
+
+
+
+
+
 
