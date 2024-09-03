@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/5983dcc7-4677-4a41-9945-fb88fe1003b1)![Screenshot 2024-09-03 141305](https://github.com/user-attachments/assets/4ed51a5d-b5e4-4f57-b373-0e0b9c0b7062)# Installing Active Directory on Windows Server 2022
+# Installing Active Directory on Windows Server 2022
 
 We will continue building on our Active Directory lab by installing Active Directory onto our Windows Server 2022 VirtualBox VM! We will also do two other housekeeping tasks to make things run a bit smoother.
 
@@ -97,7 +97,7 @@ Click next for NetBIOS domain name as it should be auto-populated with our domai
 
 Once finished installing, the computer will restart.
 
-<img src="https://i.imgur.com/G97A2l6.png" height="30%" width="30%" alt="VirtualBox downloads"/>
+<img src="https://i.imgur.com/G97A2l6.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
 Once restarted, log back in and head over to the Windows Server Manager once again. Click on "Tools" and select "Active Directory Users and Computers".
 
@@ -105,7 +105,7 @@ Once restarted, log back in and head over to the Windows Server Manager once aga
 
 <img src="https://i.imgur.com/EZQTHeF.png" height="70%" width="70%" alt="VirtualBox downloads"/>
 
-
+Congratulations! You have successfully installed Active Directory and are now ready to populate it with Users, Computers, Groups, and much more!
 
 
 
